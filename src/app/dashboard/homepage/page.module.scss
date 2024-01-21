@@ -1,0 +1,10 @@
+.scrollContainer {
+  scroll-snap-type: y mandatory; /* 'y' for vertical scrolling */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  height: 100vh; /* Full viewport height */
+}
+
+.section {
+  scroll-snap-align: start; /* Align the start of each section with the start of the scroll container */
+  height: 100vh; /* Ensure each section is at least the height of the viewport */
+}
