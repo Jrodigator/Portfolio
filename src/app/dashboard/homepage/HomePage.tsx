@@ -15,8 +15,10 @@ export default function HomePage() {
         className={`${styles.bgimg} ${styles.parallax}`}
       />
       <ParticlesContainer />
-      <h1 className={`${styles.localheader} ${styles.text2}`}>Jared</h1>
-      <h1 className={`${styles.localheader} ${styles.text}`}>Rodrigues</h1>
+      <div className={styles.container}>
+        <h1 className={`${styles.localheader} ${styles.text2}`}>Jared</h1>
+        <h1 className={`${styles.localheader} ${styles.text}`}>Rodrigues</h1>
+      </div>
     </div>
   );
 }
