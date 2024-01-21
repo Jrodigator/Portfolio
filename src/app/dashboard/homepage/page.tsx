@@ -12,14 +12,17 @@ export default async function Dashboard() {
     <div>
       <Navbar />
       <div className={styles.scrollContainer}>
-        <div className={styles.section}>
+        <div id="Home" className={styles.section}>
           <Home />
         </div>
-        <div className={styles.section}>
+        <div id="About" className={styles.section}>
           <About />
         </div>
-        <div className={styles.section}>
+        <div id="Gallery" className={styles.section}>
           <Gallery />
+        </div>
+        <div id="Contact" className={styles.section}>
+          <h1>test</h1>
         </div>
       </div>
     </div>
