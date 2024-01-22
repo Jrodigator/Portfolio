@@ -1,0 +1,58 @@
+.swiper {
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  // border-bottom: 1px solid #eaeaea;
+}
+
+.slide {
+  position: absolute;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.overlay {
+  pointer-events: none;
+  display: flex;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 11;
+  position: absolute;
+}
+
+.header {
+  position: absolute;
+  z-index: 11;
+  font-size: 5vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  // line-height: 10%;
+}
+
+.selector {
+  pointer-events: auto;
+  position: relative;
+  z-index: 11;
+  font-size: 2vw;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  line-height: 70%;  
+  margin-top: 12vh;
+  margin-left: 2vw;
+  padding: 10px
+}

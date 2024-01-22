@@ -10,9 +10,14 @@ export default function HomePage() {
   return (
     <div className={styles.main2}>
       <img
-        src="/DeskBG.png"
+        src="/bg_back.png"
         alt="hero"
-        className={`${styles.bgimg} ${styles.parallax}`}
+        className={`${styles.bgimg}`}
+      />
+      <img
+        src="/bg_front.png"
+        alt="hero"
+        className={`${styles.bgimg2}`}
       />
       <ParticlesContainer />
       <div className={styles.container}>

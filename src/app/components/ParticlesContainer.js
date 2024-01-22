@@ -29,7 +29,7 @@ const ParticlesContainer = () => {
           events: {
             onClick: {
               enable: false,
-              mode: "push",
+              mode: "attract",
             },
             onHover: {
               enable: true,
@@ -45,6 +45,10 @@ const ParticlesContainer = () => {
               distance: 200,
               duration: 0.4,
             },
+            attract: {
+              distance: 200,
+              duration: 0.4,
+            },
           },
         },
         particles: {
@@ -52,11 +56,11 @@ const ParticlesContainer = () => {
                 value: "#ffffff",
             },
             links: {
-                color: "#ff00ff",
+                color: "#f99367",
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
-                width: 1,
+                width: 2,
             },
             collisions: {
                 enable: true,

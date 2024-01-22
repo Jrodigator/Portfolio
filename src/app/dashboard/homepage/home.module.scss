@@ -25,6 +25,15 @@
   height: auto; /* Height will adjust automatically */
   z-index: -1; /* below the particles */
 }
+.bgimg2 {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  right: 0; /* Align to the right */
+  transform: translateY(-50%); /* Center vertically */
+  min-width: 100vw; /* Minimum width of 100% of the viewport width */
+  height: auto; /* Height will adjust automatically */
+  z-index: 1; /* below the particles */
+}
 
 .parralax {
   position: absolute;

@@ -11,10 +11,12 @@
   top: 0px;
   position: fixed; // Changed from fixed for mobile layout
   z-index: 1000;
+
   .logo {
     display: flex;
     margin: 0 3%;
     position: relative;
+    color: white;
     // margin-left: 3%;
     // margin: 10px;
   }
@@ -46,6 +48,7 @@
       align-items: center;
       justify-content: center;
       margin-left: 20px;
+      color: white;
       border-color: white;
       border-style: solid;
       width: 100px;

@@ -1,0 +1,34 @@
+
+.swiper {
+    align-items: center;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    // border-bottom: 1px solid #eaeaea;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  .slide img {
+    max-width: 100vw; /* Maximum width of the image is 100% of the container */
+    max-height: 100vh; /* Maximum height of the image is 100% of the container */
+    object-fit: contain; /* Ensures the image is scaled correctly within the container */
+}
+  
+  
+  
+  
+  
+  
